@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HOME|Play On Fitness</title>
+<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+<meta name="google-site-verification" content="AfagwZ39HuFxMHvyJCDFpBC3AhZ2rqAuoylCdYdadfk" />
+<meta name="alexaVerifyID" content="6EpsW7FANnZWSmMrUrpV45VmvI" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Ad Agency in Bangalore,Advertising Agency in Bangalore,Online and Digital Agency Bangalore,Advertising Agencies,Top 10 Advertising Agency,Advertising Agencies in India,Website Developers,Branding,Digital Marketing Agency,Affordable Web Design,Internet Advertising,Website Development,Digital Marketing,Digital Marketing,Online Advertisng,Advertisements,Advertising,Ecommerce website Design,Outdoor Advertising,Brochure Design Bangalore" />
+<meta name="description" content="Lighthouse Creatives is an Advertising Agency based in Bangalore with a decade of advertising agency experience Nationally and Internationally. We deal in Logo Designing, Brochure Designing, Web Designing, Brand Building, Website Content Writing, SEO, PPC, Social Media Marketing,Social Apps, WAP Site, Mobile Site, Mobile Apps, Blue Casting, QR Code and Augmented Reality." />
+<link rel="canonical" href="http://lighthousecreatives.com" />
+<meta property='og:locale' content='en_US'/>
+<meta property='og:type' content='website'/>
+<meta property='og:title' content='Creative ad agency in Bangalore | Creative Agency Bangalore | Ad Agency Bangalore | Advertising Agency | Design Agency Bangalore | Creative Advertising Agency | Creative Agency | Creative Agency Bangalore | Web Design company Bangalore | Online and Digital Agency Bangalore'/>
+<meta property='og:url' content='http://lighthousecreatives.com/'/>
+<meta property='og:site_name' content='Lighthouse Creatives Bangalore'/>
+<link type="text/css" href="css/style.css" rel="stylesheet" media="screen" />
+<link rel="stylesheet" href="css/_reset.css" />
+<link rel="stylesheet" href="css/main.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 	
+<script src="js/beaverslider2.0-compressed.js"></script>
+<script src="js/beaverslider2.0-effects-compressed.js"></script>  
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/fGallery.js"></script>
+<script type="text/javascript" src="js/hover_animation.js"></script>
+<script type="text/javascript">
+		!window.jQuery && document.write('<script src="js/jquery-1.4.3.min.html"><\/script>');
+</script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+			$("a#image1").fancybox();			
+			$("a#image2").fancybox();			
+			$("a#image3").fancybox();			
+			$("a#image4").fancybox();			
+			$("a#image5").fancybox();			
+			$("a#image6").fancybox();			
+			$("a#image7").fancybox();			
+			$("a#image8").fancybox();
+			
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#varioustxt1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'modal'		: true
+			});
+			
+			$("#varioustxt2").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+			
+			
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#variousvideo1").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+			
+			$("#variousvideo2").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+</script>
+<script>
+		function onBlur(el) {
+			if (el.value == '') {
+				el.value = el.defaultValue;
+			}
+		}
+		function onFocus(el) {
+			if (el.value == el.defaultValue) {
+			el.value = '';
+		}
+	}
+</script>
+<style>
+      #imagelightbox
+		{
+			cursor: pointer;
+			position: fixed;
+			z-index: 10000;
+         
+			-ms-touch-action: none;
+			touch-action: none;
+
+			-webkit-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 ); /* 50 */
+			box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 ); /* 50 */
+		}
+
+
+		/* ACTIVITY INDICATION */
+
+		#imagelightbox-loading,
+		#imagelightbox-loading div
+		{
+			border-radius: 50%;
+		}
+		#imagelightbox-loading
+		{
+			width: 2.5em; /* 40 */
+			height: 2.5em; /* 40 */
+			background-color: #444;
+			background-color: rgba( 0, 0, 0, .5 );
+			position: fixed;
+			z-index: 10003;
+			top: 50%;
+			left: 50%;
+			padding: 0.625em; /* 10 */
+			margin: -1.25em 0 0 -1.25em; /* 20 */
+
+			-webkit-box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
+			box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
+		}
+			#imagelightbox-loading div
+			{
+				width: 1.25em; /* 20 */
+				height: 1.25em; /* 20 */
+				background-color: #fff;
+
+				-webkit-animation: imagelightbox-loading .5s ease infinite;
+				animation: imagelightbox-loading .5s ease infinite;
+			}
+
+			@-webkit-keyframes imagelightbox-loading
+			{
+				from { opacity: .5;	-webkit-transform: scale( .75 ); }
+				50%	 { opacity: 1;	-webkit-transform: scale( 1 ); }
+				to	 { opacity: .5;	-webkit-transform: scale( .75 ); }
+			}
+			@keyframes imagelightbox-loading
+			{
+				from { opacity: .5;	transform: scale( .75 ); }
+				50%	 { opacity: 1;	transform: scale( 1 ); }
+				to	 { opacity: .5;	transform: scale( .75 ); }
+			}
+
+
+		/* OVERLAY */
+
+		#imagelightbox-overlay
+		{
+			background-color: black;
+			opacity: 0.8;
+			position: fixed;
+			position: fixed;
+			z-index: 9998;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+
+
+		/* "CLOSE" BUTTON */
+
+		#imagelightbox-close
+		{
+			width: 2.5em;
+			height: 2.5em;
+			text-align: left;
+			background-color: #000;
+			border-radius: 50%;	
+			position: fixed;
+		    z-index: 10002;
+			top: 7.3em;
+			right: 21.5em;
+			-webkit-transition: color .3s ease;
+			transition: color .3s ease;
+		}
+			#imagelightbox-close:hover,
+			#imagelightbox-close:focus
+			{
+				background-color: #111;
+			}
+			#imagelightbox-close:before,
+			#imagelightbox-close:after
+			{
+				width: 2px;
+				background-color: #fff;
+				content: '';
+				position: absolute;
+				top: 20%;
+				bottom: 20%;
+				left: 50%;
+				margin-left: -1px;
+			}
+			#imagelightbox-close:before
+			{
+				-webkit-transform: rotate( 45deg );
+				-ms-transform: rotate( 45deg );
+				transform: rotate( 45deg );
+			}
+			#imagelightbox-close:after
+			{
+				-webkit-transform: rotate( -45deg );
+				-ms-transform: rotate( -45deg );
+				transform: rotate( -45deg );
+			}
+
+
+		/* CAPTION */
+
+		#imagelightbox-caption
+		{
+			text-align: center;
+			color: #fff;
+			position: fixed;
+			z-index: 10001;
+			left: 0;
+			right: 0;
+			bottom: 102px;
+			padding: 0.625em; /* 10 */
+	    }
+		@-moz-document url-prefix() { 
+			#imagelightbox-caption
+			{
+				text-align: center;
+				color: #fff;
+				position: fixed;
+				z-index: 10001;
+				left: 0;
+				right: 0;
+				bottom: 88px;
+				padding: 0.625em; /* 10 */
+			}
+		}
+
+		/* NAVIGATION */
+
+		#imagelightbox-nav
+		{
+			background-color: #444;
+			background-color: rgba( 0, 0, 0, .5 );
+			border-radius: 20px;
+			position: fixed;
+			z-index: 10001;
+			left: 50%;
+			bottom: 3.75em; /* 60 */
+			padding: 0.313em; /* 5 */
+
+			-webkit-transform: translateX( -50% );
+			-ms-transform: translateX( -50% );
+			transform: translateX( -50% );
+		}
+			#imagelightbox-nav button
+			{
+				width: 1em; /* 20 */
+				height: 1em; /* 20 */
+				background-color: transparent;
+				border: 1px solid #fff;
+				border-radius: 50%;
+				display: inline-block;
+				margin: 0 0.313em; /* 5 */
+			}
+			#imagelightbox-nav button.active
+			{
+				background-color: #fff;
+			}
+
+
+		/* ARROWS */
+
+		.imagelightbox-arrow
+		{
+			width: 3.75em; /* 60 */
+			height: 7.5em; /* 120 */
+			
+			background-color: rgba( 0, 0, 0, .5 );
+			vertical-align: middle;
+			display: none;
+			position: fixed;
+			z-index: 10001;
+			top: 50%;
+			margin-top: -3.75em; /* 60 */
+		}
+		.imagelightbox-arrow:hover,
+		.imagelightbox-arrow:focus
+		{
+			background-color: #666;
+			background-color: rgba( 0, 0, 0, .75 );
+		}
+		.imagelightbox-arrow:active
+		{
+			background-color: #111;
+		}
+			.imagelightbox-arrow-left
+			{
+				left: 19.6em; /* 40 */
+			}
+			.imagelightbox-arrow-right
+			{
+				right: 19.6em; /* 40 */
+			}
+			.imagelightbox-arrow:before
+			{
+				width: 0;
+				height: 0;
+				border: 1em solid transparent;
+				content: '';
+				display: inline-block;
+				margin-bottom: -0.125em; /* 2 */
+			}
+				.imagelightbox-arrow-left:before
+				{
+					border-left: none;
+					border-right-color: #fff;
+					margin-left: -0.313em; /* 5 */
+				}
+				.imagelightbox-arrow-right:before
+				{
+					border-right: none;
+					border-left-color: #fff;
+					margin-right: -0.313em; /* 5 */
+				}
+
+		#imagelightbox-loading,
+		#imagelightbox-overlay,
+		#imagelightbox-close,
+		#imagelightbox-caption,
+		#imagelightbox-nav,
+		.imagelightbox-arrow
+		{
+			-webkit-animation: fade-in .25s linear;
+			animation: fade-in .25s linear;
+		}
+			@-webkit-keyframes fade-in
+			{
+				from	{ opacity: 0; }
+				to		{ opacity: 1; }
+			}
+			@keyframes fade-in
+			{
+				from	{ opacity: 0; }
+				to		{ opacity: 1; }
+			}
+
+		@media only screen and (max-width: 41.250em) /* 660 */
+		{
+			
+			#imagelightbox-close
+			{
+				top: 1.25em; /* 20 */
+				right: 1.25em; /* 20 */
+			}
+			#imagelightbox-nav
+			{
+				bottom: 1.25em; /* 20 */
+			}
+
+			.imagelightbox-arrow
+			{
+				width: 2.5em; /* 40 */
+				height: 3.75em; /* 60 */
+				margin-top: -2.75em; /* 30 */
+			}
+			.imagelightbox-arrow-left
+			{
+				left: 1.25em; /* 20 */
+			}
+			.imagelightbox-arrow-right
+			{
+				right: 1.25em; /* 20 */
+			}
+		}
+
+		@media only screen and (max-width: 20em) /* 320 */
+		{
+			.imagelightbox-arrow-left
+			{
+				left: 0;
+			}
+			.imagelightbox-arrow-right
+			{
+				right: 0;
+			}
+		}
+
+</style>
+</head>
+<body>
+<!-- BEGIN HEADER -->
+<div id="header" style="top:0px!important;">
+	<div id="header_inn">
+		<div id="menu">
+			<ul id="nav1" class="nav1">
+			    <li><a href="#home_top">HOME</a></li> 
+				<li><a href="#home_about_botm_bg">ABOUT US</a></li>
+				<li><a href="#home_portfolio">GALLERY</a></li>
+				<li><a href="#home_contact">CONTACT US</a></li>
+			</ul>
+			<div class="clr"></div>
+		</div><!-- end div #menu -->
+		<div id="top_logo"> <a href="#home_top" class="scroll">&nbsp;</a>
+			<div class="clr"></div>
+		</div><!-- end div #top_logo -->
+		<div class="clr"></div>
+	</div><!-- end div #header_inn-->
+	<div class="clr"></div>
+	  <div class="sub_header_img">  
+        </div>
+</div><!-- end div #header -->
+<!-- END HEADER -->
+<!-- BEGIN HOME SECTION -->
+<div class="wrapper section" id="home_top" data-key="H">
+	<div id="home">
+		<div id="home_top_botm_bg">
+			<div id="home_top_inn">
+			  <img src="images/play.png" style="margin-left: 227px;margin-top: 17px;">
+			  <div id="home_slider_outer">
+				<script>
+					$(function(){
+						var slider = new BeaverSlider({
+						structure: {
+							container: {
+									id: "my-slider",
+									width: 770,
+									height: 370
+										}
+									},
+							content: {
+								images: [
+									"images/img_slides/slide_01.jpg",
+									"images/img_slides/slide_02.jpg",
+									"images/img_slides/slide_03.jpg",
+									"images/img_slides/slide_04.jpg",
+									"images/img_slides/slide_05.jpg"
+										]
+									},
+						animation: {
+							effects: effectSets["slider: big set 2"],
+							interval: 1000
+									}
+												});   
+								});
+	
+				</script>
+				<div id="my-slider"></div>
+						<div class="clr"></div>
+					</div><!-- end div .slider-wrapper theme-default -->				
+					<div class="clr"></div>
+				</div><!-- end div #home_slider_outer -->
+				<div class="clr"></div>
+			</div><!-- end div #home_top_inn -->
+		    <div class="fit">" Fit is not a Destination! It is a way of Life!! "</div>
+			<div class="clr"></div>
+		</div><!-- end div #home_top_botm_bg -->
+		<div class="clr"></div>
+	</div><!-- end div #home_top -->
+	<div class="clr"></div>
+</div>
+<!-- END HOME SECTION -->
+<!-- BEGIN ABOUT SECTION -->
+<div id="home_about"  class="section" data-key="A">
+	<div id="home_about_botm_bg">
+		<div id="home_about_inn">
+			<div id="about_go_top"> <a href="#home_top" class="scroll">&nbsp;</a>
+				<div class="clr"></div>
+			</div><!-- end div #about_go_top -->
+			<div id="home_about_desc">
+				<div id="home_about_desc_left">
+				    <div id="about">ABOUT US</div>
+                    <div class="our_phi">Our philosophy in designing Play On Fitness has been to create an environment that offers a sanctuary from the stresses and strains of modern life.</div>
+					<div class="clr"></div>
+				</div><!-- end div #home_about_desc_left -->
+					<p class="afforable_txt">
+				Affordable membership and a humble community atmosphere means this Bangalore based fitness club attracts a healthy mix of people from well-honed men bulking up to more average-shaped folk who just wants to keep fit. There's an open gym and exercise studio which make up the perfect gym facility. The cardio weights and machines are all of International Standards by Edge Fitness which are world famous for their ergonomics.<br/><br/><br/>
+				<span style="font-size:20px;font-family: helvetica;line-height: 35px;font-weight:bold">" When you finish a good workout, <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;you feel great about yourself.  "</span></p>
+				<div style="position: relative;top: -259px;left: 539px;border:solid 7px #fff;width: 316px;height: 314px;">
+				<img src="images/abt_img.jpg" ></div>
+				<div class="our_phi1">We believe that all our members will appreciate the care and attention that has been paid to every detail of the club. The quality of the facilities, high standards of cleanliness and customer service which we promise will be reflected in an atmosphere rarely enjoyed in other clubs.</div>
+				<div class="clr"></div>
+				<div id="home_about_desc_right">
+				</div><!-- end div #home_about_desc_right -->
+				<div class="clr"></div>
+			</div><!-- end div #home_about_desc -->
+			<div class="clr"></div>
+		</div><!-- end div #home_about_inn -->
+		<div class="clr"></div>
+	</div><!-- end div #home_about_botm_bg -->
+	<div class="clr"></div>
+</div>
+<!-- END ABOUT SECTION -->
+<!-- BEGIN PORTFOLIO SECTION -->
+<div id="home_portfolio"  class="section" data-key="P">
+<div>
+	<div id="home_portfolio_botm_bg">
+		<div id="home_portfolio_inn">
+			<div class="clr"></div>
+			<div id="home_portfolio_desc">
+				<div id="home_portfolio_desc_left">
+					<p class="gal_title">GALLERY</p><br/><br/>
+					<div class="clr"></div>
+				</div><!-- end div #home_portfolio_desc_left -->
+				<div id="home_portfolio_desc_right">
+					<p></p>
+					<div class="clr"></div>
+				</div><!-- end div #home_portfolio_desc_right -->
+				<div class="clr"></div>
+			</div><!-- end div #home_portfolio_desc -->	
+			<div class="gallery"> 		
+				<a href="img/demopage/image-1.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-1.jpg" alt="Image 1 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-2.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-2.jpg" alt="Image 2 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-3.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-3.jpg" alt="Image 3 of 9" style="border: solid 4px #fff;"/></a><br/><br/>
+				<a href="img/demopage/image-4.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-4.jpg" alt="Image 4 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-5.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-5.jpg" alt="Image 5 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-6.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-6.jpg" alt="Image 6 of 9" style="border: solid 4px #fff;"/></a><br/><br/>
+				<a href="img/demopage/image-7.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-7.jpg" alt="Image 7 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-8.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-8.jpg" alt="Image 8 of 9" style="border: solid 4px #fff;"/></a>
+				<a href="img/demopage/image-9.jpg" data-imagelightbox="f"><img src="img/demopage/thumb-9.jpg" alt="Image 9 of 9" style="border: solid 4px #fff;"/></a>
+			</div>			
+		</div><!-- end div #home_portfolio_inn -->
+		<div class="clr"></div>
+	</div><!-- end div #home_portfolio_botm_bg -->
+	<div class="clr"></div>
+</div><!-- end div #home_portfolio -->
+</div>
+<!-- END PORTFOLIO SECTION -->
+<!-- BEGIN CONTACT SECTION -->
+<div id="home_contact" class="section" data-key="C">
+	<div id="home_contact_botm_bg">
+		<div id="home_contact_inn">
+					<h3 style="color:#F15B22;font-size:40px;text-shadow: 1px 1px #fff;font-family:arial;position: relative;left: 68px;
+top: 68px;">CONTACT US</h3>   
+					<div class="cont1">
+						There's so much more we can tell you about how we can work with you to deliver results,<br><br>call us on:<br><br>+91 88615 07777<br>
+						+91 88616 07777<br>+91 80 4123 4777<br></div>
+                   <div class="social"><img src="images/social.png" height="30px"></div><div class="cont2">leave a message</div>
+					<form method="post" id="form" action="subscribe.php" name="myform" class="myform">
+						<input type="text" name="name" id="name"  value="Name" onblur="onBlur(this)" onfocus="onFocus(this)" style="position: absolute;top: -6px;"/><br/><br/>
+						<input type="text" name="email" id="email"  value="Email" onblur="onBlur(this)" onfocus="onFocus(this)" style="position: absolute;top: 33px;"/><br/><br/>
+						<input type="text" name="phone" id="phone" value="Telephone"  onblur="onBlur(this)" onfocus="onFocus(this)" style="position: absolute;top:71px;"/><br/><br/>
+						<textarea name="txt" rows="5" cols="45" id="txt" onblur="onBlur(this)" onfocus="onFocus(this)" style="width: 226px;height: 81px;position:absolute;top:109px;font-family:arial;font-size:13px;" >Message</textarea>
+						<br/><br />
+						<div style="position: absolute;left: 154px;top: 221px;"><input type="submit" name="submit" value="Submit" class="sub" style="width: 115px;height: 33px; background-color: #F15B22;color:#514B4B;color:#D8D7D8; font-family:arial; font-size:12px;text-decoration:none;letter-spacing:1px;border-style: none;border-radius:10px;position:absolute;left:-147px;cursor: pointer;"/></div>
+					</form>
+					<div class="cont3">visit us</div>   
+					<div style="position: relative;top: -146px;left: 609px;width: 200px;height: 18px;">
+						<iframe width="250" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=playonfitness+bangalore&amp;aq=&amp;sll=37.246374,-122.026782&amp;sspn=1.331493,2.705383&amp;ie=UTF8&amp;hq=playonfitness&amp;hnear=Bengaluru,+Bangalore+Urban,+Karnataka,+India&amp;ll=12.90611,77.592438&amp;spn=0.203796,0.338173&amp;t=m&amp;z=12&amp;iwloc=A&amp;cid=744082051104841866&amp;output=embed"></iframe><br />
+					</div>
+					<h3 style="position: relative;top: -73px;left: 75px;color: #FFF;font-weight:normal;font-family: helvetica;">Address:</h3>
+						<p style="position: relative;top: -59px;left: 78px;width: 177px;line-height: 21px;color: #FFF;text-align: justify;font-family: helvetica;font-size: 13px;">#309,100 Feet Ring Road, Above Pizza hut (PHD), Opp Lathangi Ford, 2nd floor, 15th Cross, Outer Ring Rd, J P Nagar Phase 5, 5th Phase, Bengaluru, Karnataka 560078</p>
+
+		</div><!-- end div #home_contact_inn-->
+	</div><!-- end div #home_contact_botm_bg -->
+<!-- END CONTACT SECTION -->
+<div style="background:#454547;height:40px;border:solid 1px #000;margin:0 auto;">
+		<div id="home_footer_inn"><p style="font-family: Arial;font-size: 12px;color: #fff;position: relative;left: 213px;width: 154px;margin: 0 auto;top: 13px;"> Developed  &nbsp;<a href="http://www.theaalpine.com/" target="_blank" style="text-decoration:none;"> <img src="images/aalpine.png" width="22" height="18"></a></p>
+			<div style="margin: 0 auto;left: 328px;top: -6px;position: relative;font-family: Arial;font-size: 12px;color: #fff;width: 151px;">Branding by PBS&nbsp;&nbsp;&nbsp;<a href="http://purplebrush.co.in/" target="_blank"><img src="images/PBS_Icon.png"></a></div>
+        </div>
+	    <div style="position: relative;left: -273px;color: #fff;font-size: 13px;width: 253px;margin: 0 auto;top: -23px;">All rights are reserverd copyright@2014</div>
+</div>
+<script type="text/javascript">
+            $(function() {
+                $('ul.nav1 a').bind('click',function(event){
+                    var $anchor = $(this);              
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top-90
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+ </script>
+<script type="text/javascript">
+ $(document).ready(function(){
+	$(".scroll").click(function(event){
+		//prevent the default action for the click event
+		event.preventDefault();
+		//get the full url - like mysitecom/index.htm#home
+		var full_url = this.href;
+		//split the url by # and get the anchor target name - home in mysitecom/index.htm#home
+		var parts = full_url.split("#");
+		var trgt = parts[1];
+		//get the top offset of the target anchor
+		var target_offset = $("#"+trgt).offset();
+		var target_top = target_offset.top;
+		//goto that anchor by setting the body scroll top to anchor top
+		$('html, body').animate({scrollTop:target_top}, 500);	
+	});
+});
+</script>
+<script src="js/main.js"></script>
+<script src="js/imagelightbox.min.js"></script>
+<script>
+var $j1 = jQuery.noConflict();
+	$j1( function()
+	{
+			// ACTIVITY INDICATOR
+    		var activityIndicatorOn = function()
+			{
+				$j1( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
+			},
+			activityIndicatorOff = function()
+			{
+				$j1( '#imagelightbox-loading' ).remove();
+			},
+
+			// OVERLAY
+			overlayOn = function()
+			{
+				$j1( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
+			},
+			overlayOff = function()
+			{
+				$j1( '#imagelightbox-overlay' ).remove();
+			},
+			// CLOSE BUTTON
+			closeButtonOn = function( instance )
+			{
+				$j1( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $j1( this ).remove(); instance.quitImageLightbox(); return false; });
+			},
+			closeButtonOff = function()
+			{
+				$j1( '#imagelightbox-close' ).remove();
+			},
+			// CAPTION
+			captionOn = function()
+			{
+				var description = $j1( 'a[href="' + $j1( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
+				if( description.length > 0 )
+					$j1( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
+			},
+			captionOff = function()
+			{
+				$j1( '#imagelightbox-caption' ).remove();
+			},
+			// NAVIGATION
+			navigationOn = function( instance, selector )
+			{
+				var images = $j1( selector );
+				if( images.length )
+				{
+					var nav = $j1( '<div id="imagelightbox-nav"></div>' );
+					for( var i = 0; i < images.length; i++ )
+						nav.append( '<button type="button"></button>' );
+
+					nav.appendTo( 'body' );
+					nav.on( 'click touchend', function(){ return false; });
+
+					var navItems = nav.find( 'button' );
+					navItems.on( 'click touchend', function()
+					{
+						var $this = $j1( this );
+						if( images.eq( $this.index() ).attr( 'href' ) != $j1( '#imagelightbox' ).attr( 'src' ) )
+							instance.switchImageLightbox( $this.index() );
+
+						navItems.removeClass( 'active' );
+						navItems.eq( $this.index() ).addClass( 'active' );
+
+						return false;
+					})
+					.on( 'touchend', function(){ return false; });
+				}
+			},
+			navigationUpdate = function( selector )
+			{
+				var items = $j1( '#imagelightbox-nav button' );
+				items.removeClass( 'active' );
+				items.eq( $j1( selector ).filter( '[href="' + $j1( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
+			},
+			navigationOff = function()
+			{
+				$j1( '#imagelightbox-nav' ).remove();
+			},
+			// ARROWS
+			arrowsOn = function( instance, selector )
+			{
+				var $arrows = $j1( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
+
+				$arrows.appendTo( 'body' );
+
+				$arrows.on( 'click touchend', function( e )
+				{
+					e.preventDefault();
+
+					var $this	= $j1( this ),
+						$target	= $j1( selector + '[href="' + $j1( '#imagelightbox' ).attr( 'src' ) + '"]' ),
+						index	= $target.index( selector );
+
+					if( $this.hasClass( 'imagelightbox-arrow-left' ) )
+					{
+						index = index - 1;
+						if( !$j1( selector ).eq( index ).length )
+							index = $( selector ).length;
+					}
+					else
+					{
+						index = index + 1;
+						if( !$j1( selector ).eq( index ).length )
+							index = 0;
+					}
+
+					instance.switchImageLightbox( index );
+					return false;
+				});
+			},
+			arrowsOff = function()
+			{
+				$j1( '.imagelightbox-arrow' ).remove();
+			};
+		//	ALL COMBINED
+		var selectorF = 'a[data-imagelightbox="f"]';
+		var instanceF = $j1( selectorF ).imageLightbox(
+		{
+			onStart:		function() { overlayOn(); closeButtonOn( instanceF ); arrowsOn( instanceF, selectorF ); },
+			onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
+			onLoadStart: 	function() { captionOff(); activityIndicatorOn(); },
+			onLoadEnd:	 	function() { captionOn(); activityIndicatorOff(); $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
+		});
+
+	});
+</script>
+</body>
+</html>
